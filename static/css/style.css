@@ -240,7 +240,7 @@ a:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 5px;
+    margin: 1px;
 }
 
 .card {
@@ -306,9 +306,9 @@ a:hover {
 }
 
 .card-wrapper h2 {
-    font-size: 40px;
+    font-size: 35px;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     margin: 0;
     transition: 0.3s;
 }
@@ -341,6 +341,7 @@ a:hover {
 .btn {
     background: #355E3B;
     border: none;
+    margin-top: 20px;
     padding: 10px 20px;
     display: inline-block;
     font-size: 1rem;
