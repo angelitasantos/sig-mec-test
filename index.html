@@ -4,54 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="static/js/website.js"></script>
+    <script type="module" src="static/js/geral.js"></script>
 </head>
 <body>
     <header class="header-wrapper">
-        <section class="header">
-            <div class="checkbox-container">
-                <div class="checkbox-wrapper">
-                    <input type="checkbox" id="toggle">
-                    <label class="checkbox" for="toggle">
-                        <div class="trace"></div>
-                        <div class="trace"></div>
-                        <div class="trace"></div>
-                    </label>
-                    <div class="menu"></div>
-                    <nav class="menu-items">
-                        <ul>
-                            <li><a href="/sig-mec-test/index.html">Home</a></li>
-                            <li><a href="templates/website/about.html" target="_self">Sobre</a></li>
-                            <li><a href="templates/website/contact.html" target="_self">Contato</a></li>
-                        </ul>
-                    </nav>
-                </div>
+        
+        <section class="checkbox-container">
+            <div class="checkbox-wrapper">
+                <input type="checkbox" id="toggle">
+                <label class="checkbox" for="toggle">
+                    <div class="trace"></div>
+                    <div class="trace"></div>
+                    <div class="trace"></div>
+                </label>
+                <div class="menu"></div>
+                <nav class="menu-items">
+                    <ul>
+                        <li><a class="indexLink" href="">Home</a></li>
+                        <li><a href="templates/website/about.html" target="_self">Sobre</a></li>
+                        <li><a href="templates/website/contact.html" target="_self">Contato</a></li>
+                    </ul>
+                </nav>
             </div>
         </section>
+
         <section class="company">
-            <h1 id="company-name">OFICINA MECANICA ESPECIALIZADA NOME</h1>
+            <h1 id="company-name"></h1>
             <h3>Endereço</h3>
-            <h3 id="company-street">Rua Nome da Rua, 123</h3>
-            <h3 id="company-district">Bairro Nome</h3>
-            <h3 id="company-city">Cidade / UF</h3>
-            <h3 id="company-zipcode">CEP: 99.999-999</h3>
+            <h3 id="company-street"></h3>
+            <h3 id="company-district"></h3>
+            <h3 id="company-city"></h3>
+            <h3 id="company-zipcode"></h3>
         </section>
+
         <section class="contacts">
-            <a href="/" target="_self">
-                <p><i class="fa fa-phone"></i> <span id="company-phone">99 9999-9999</span></p>
+            <a class="indexLink" href="" target="_self">
+                <p><i class="fa fa-phone"></i> <span id="company-phone"></span></p>
             </a>
-            <a href="https://web.whatsapp.com/" target="_self">
-                <p><i class="fa fa-whatsapp"></i> <span id="company-whastapp">99 99999-9999</span></p>
+            <a id="whatsappLink" href="" target="_self">
+                <p><i class="fa fa-whatsapp"></i> <span id="company-whastapp"></span></p>
             </a>
         </section>
+
         <section class="social-media">
-            <a id="company-instagram" href="https://www.instagram.com/" target="_self"><i class="fa fa-instagram"></i></a>
-            <a id="company-facebook" href="https://www.facebook.com/" target="_self"><i class="fa fa-facebook"></i></a>
-            <a id="company-twitter" href="https://www.twitter.com/" target="_self"><i class="fa fa-twitter"></i></a>
-            <a id="company-linkedin" href="https://www.linkedin.com/" target="_self"><i class="fa fa-linkedin"></i></a>
+            <a id="company-instagram" href="" target="_self"><i class="fa fa-instagram"></i></a>
+            <a id="company-facebook" href="" target="_self"><i class="fa fa-facebook"></i></a>
+            <a id="company-twitter" href="" target="_self"><i class="fa fa-twitter"></i></a>
+            <a id="company-linkedin" href="" target="_self"><i class="fa fa-linkedin"></i></a>
         </section>
+
     </header>
 
-    <script type="module" src="static/js/website.js"></script>
-    <script type="module" src="static/js/geral.js"></script>
+    <script type="text/javascript" src="../../static/js/website/indexText.js"></script>
 </body>
 </html>
