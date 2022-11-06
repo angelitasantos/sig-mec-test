@@ -5,7 +5,7 @@ import { setFontsHead } from './head/fonts.js';
 import { setCssHead } from './head/css.js';
 
 
-const host = 'http://127.0.0.1:5500/';
+const host = 'https://angelitasantos.github.io/sig-mec-test/';
 const cssFolder = 'static/css/';
 const imgFolder = 'static/img/';
 const jsFolder = 'static/js/';
