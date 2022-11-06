@@ -5,7 +5,7 @@ import { setFontsHead } from './head/fonts.js';
 import { setCssHead } from './head/css.js';
 
 
-const host = 'https://angelitasantos.github.io/sig-mec-test/';
+const host = 'http://127.0.0.1:5500/';
 const cssFolder = 'static/css/';
 const imgFolder = 'static/img/';
 const jsFolder = 'static/js/';
@@ -56,3 +56,8 @@ setCssHead(linkCssStyle);
 
 const linkResponsive = host + cssFolder + 'responsive.css';
 setCssHead(linkResponsive);
+
+
+// Link index.html
+let indexLink = document.querySelector('.indexLink');
+indexLink.setAttribute('href', host + 'index.html');
