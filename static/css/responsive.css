@@ -26,6 +26,13 @@
         font-size: 20px;
     }
 
+    .input[type="text"],
+    .input[type="email"],
+    .textarea,
+    .select {
+        width: 400px;
+    }
+
 }
 
 
@@ -46,6 +53,17 @@
     .card:hover>.card-wrapper::before {
         width: 210px;
         height: 190px;
+    }
+
+    .form {
+        margin: 10px;
+    }
+
+    .input[type="text"],
+    .input[type="email"],
+    .textarea,
+    .select {
+        width: 250px;
     }
 
 }
