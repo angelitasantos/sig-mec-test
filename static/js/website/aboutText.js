@@ -1,3 +1,14 @@
+
+let titleAbout = document.querySelector('#titleAbout');
+let selectorTitleAbout = 'Title About';
+titleAbout.textContent = selectorTitleAbout;
+
+
+let subtitleAbout = document.querySelector('#subtitleAbout');
+let selectorSubtitleAbout = 'Subtitle About';
+subtitleAbout.textContent = selectorSubtitleAbout;
+
+
 let aboutText1 = document.querySelector('#aboutText1');
 let selectorAboutText1 = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not\
                             only five centuries, but also the leap into electronic typesetting, remaining essentially\
